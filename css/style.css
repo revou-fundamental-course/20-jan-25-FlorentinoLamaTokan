@@ -2,13 +2,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+article{
+    width: 600px;
+    background-color:#d1d7dd;
+    padding-bottom: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -600px;
+
+}
+
+article>header>h1{
+    font-size: 50px;
+    text-align: center;
+
 }
 
 .container {
+    position: absolute;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -57,4 +74,8 @@ button:hover {
     margin-top: 20px;
     font-size: 1rem;
     color: #333;
+}
+
+.tips{
+    margin-top: 600px;
 }
