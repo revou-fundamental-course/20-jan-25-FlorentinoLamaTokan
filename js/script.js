@@ -5,7 +5,7 @@ function hitungBMI() {
 
     //proteksi agar user mengisi nilai dengan benar
     if (isNaN(beratBadan) || isNaN(tinggiBadan) || beratBadan <= 0 || tinggiBadan <= 0) {
-        document.getElementById('hasil').innerText = "Harap masukkan nilai yang valid!";
+        alert("Harap masukkan nilai yang valid!");
         return;
     }
 
